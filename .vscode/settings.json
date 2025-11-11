@@ -1,0 +1,37 @@
+{
+  "window.title": "${rootName}→${activeEditorShort}",
+  "files.exclude": {
+    "_Notes": true,
+    ".next": true,
+    ".obsidian": true,
+    "Backup-env.ps1": true,
+    "DOCs": true,
+    "node_modules": true,
+    "out": true,
+    "tools/Copy-RefCode.ts": true,
+    "tools/Backup-env.ps1": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "explorer.excludeGitIgnore": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "chat.tools.edits.autoApprove": {
+    "**/*.env": false
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "Ref-Code": false
+  },
+  "git.allowForcePush": true,
+  "github.copilot.chat.localeOverride": "zh-TW",
+  "chat.agentSessionsViewLocation": "view",
+  "inlineChat.enableV2": true,
+}

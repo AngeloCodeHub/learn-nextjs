@@ -1,0 +1,17 @@
+{
+  "userIgnoreFilters": [
+    "node_modules/",
+    "src/",
+    "public/",
+    "out/",
+    "_example/",
+    "dist/",
+    "build/",
+    "Ref-Code/"
+  ],
+  "showInlineTitle": false,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "tabSize": 2
+}
