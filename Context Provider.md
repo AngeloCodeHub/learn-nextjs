@@ -1,0 +1,8 @@
+# UI library react Provider
+
++ [Passing Data Deeply with Context – React](https://react.dev/learn/passing-data-deeply-with-context)
++ [createContext – React](https://react.dev/reference/react/createContext)
++ [Next.js | HeroUI (Previously NextUI) - Beautiful, fast and modern React UI Library](https://www.heroui.com/docs/frameworks/nextjs#manual-installation)
++ [Next.js - shadcn/ui](https://ui.shadcn.com/docs/dark-mode/next#create-a-theme-provider)
++ [React Context Provider：輕鬆管理全局狀態的魔法工具 | Cash Wu Geek](https://blog.cashwu.com/blog/2024/react-context-provider-tutorial)
++ [\[鐵人賽 Day09\] React Context（上）-單純的用法 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10268540)

@@ -3,7 +3,8 @@
     "node_modules/",
     "src/",
     "SrcCode/",
-    "public/"
+    "public/",
+    "out/"
   ],
   "showInlineTitle": false,
   "showLineNumber": true,
