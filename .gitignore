@@ -3,6 +3,9 @@
 # Obsidian vault config（不要更改行號）
 .obsidian/workspace*.json
 
+# 學習範例
+_example
+
 # dependencies
 /node_modules
 /.pnp
@@ -19,6 +22,7 @@
 # next.js
 /.next/
 /out/
+/dist
 
 # production
 /build

@@ -43,20 +43,6 @@
       {
         "name": "",
         "active": true,
-        "type": "FILES_AND_DIRECTORIES",
-        "pattern": "",
-        "patternType": "WILDCARD"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "SrcCode",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
         "type": "DIRECTORIES",
         "pattern": "app",
         "patternType": "STRICT"
@@ -73,6 +59,20 @@
         "active": true,
         "type": "DIRECTORIES",
         "pattern": "node_modules",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "src",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "out",
         "patternType": "STRICT"
       }
     ],
