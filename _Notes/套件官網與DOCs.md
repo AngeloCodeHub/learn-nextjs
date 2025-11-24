@@ -9,6 +9,7 @@
 - [營養師不開菜單後的 Next.js 全端轉職攻略:從專案規劃、畫面設計、資安到 SEO, 挑戰一人 Side](https://ksml.ebook.hyread.com.tw/bookDetail.jsp?id=412459)
 - [深入淺出，完整認識 Next.js 13 ！ :: 2023 iThome 鐵人賽](https://ithelp.ithome.com.tw/users/20161853/ironman/6122)
 - [從零開始學習 Next.js :: 2021 iThome 鐵人賽](https://ithelp.ithome.com.tw/users/20110504/ironman/4269)
+- [[NextJS React學習資源]]
 
 ### [React.JS](https://react.dev/)
 
@@ -20,10 +21,10 @@
 ### [TypeScript: JavaScript With Syntax For Types.](https://www.typescriptlang.org/)
 ### [React TypeScript Cheatsheets | React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
 ### [Tailwind CSS](https://tailwindcss.com/)
-### [Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter](https://eslint.org/)
-### [Iconify for React 使用指南](https://iconify.design/docs/icon-components/react/)
-### [HeroUI v2](https://heroui.com/)
 ### [Shadcn/UI](https://ui.shadcn.com/)
+### [ESLint](https://eslint.org/)
+### [Iconify for React 使用指南](https://iconify.design/docs/icon-components/react/)
+### [HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.](https://v3.heroui.com/)
 - [awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui)
 
 ## 小工具

@@ -3,7 +3,6 @@
   "files.exclude": {
     ".obsidian": true,
     ".next": true,
-    ".git*": true,
     "Backup-env.ps1": true,
     "node_modules": true,
     "out": true,
