@@ -74,6 +74,13 @@
         "type": "DIRECTORIES",
         "pattern": "out",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "_example",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [
