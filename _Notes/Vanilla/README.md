@@ -1,4 +1,4 @@
-# Edge、Chrome應用、Curl（invoke-webrequest）、Playwright、Webdrive.IO、Puppeteer
+# 待整理
 
 ## HTML、CSS、Javascript
 
