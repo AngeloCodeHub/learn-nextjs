@@ -17,25 +17,21 @@
 - [React DnD | 實現可拖曳的任務牆. 你今天 Drag & Drop 了嗎 ? | by Leo Chiu | 手寫筆記 | Medium](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/react-dnd-implement-task-board-16ce7f67289c)
 - 
 
-## [TypeScript: JavaScript With Syntax For Types.](https://www.typescriptlang.org/)
+## [TypeScript](https://www.typescriptlang.org/)
 - [前言 | TypeScript 新手指南](https://willh.gitbook.io/typescript-tutorial)
 - [JavaScript Tutorial－w3schools](https://www.w3schools.com/js/default.asp)
 - [AI 協作時代的軟體工程四神器：TypeScript、Zod、Vitest、JSDoc 實戰心得 - Calpa 的煉金工房](https://calpa.me/blog/ai-vibe-coding-typescript-zod-vitest-jsdoc-guide/)
-
-## [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
 
 ## [Tailwind CSS](https://tailwindcss.com/)
 
 ## [Shadcn/UI](https://ui.shadcn.com/)
 - [awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui)
 
-## [HeroUI v3](https://v3.heroui.com/)
-
 ## [ESLint](https://eslint.org/)
 
-## [Iconify for React 使用指南](https://iconify.design/docs/icon-components/react/)
+## [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
 
-## [Lucide](https://lucide.dev/)
+## [Lucide－React](https://lucide.dev/)
 
 ## [PostCSS](https://postcss.org/)
 
@@ -45,6 +41,6 @@
 
 ## [use-debounce: A debounce hook for react](https://github.com/xnimorz/use-debounce)
 
-## [Intro | Zod](https://zod.dev/)
+## [Zod](https://zod.dev/)
 
 ## [Prettier](https://prettier.io/)

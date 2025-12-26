@@ -81,6 +81,20 @@
         "type": "DIRECTORIES",
         "pattern": "dist",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "node_modules",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "Ref-Code",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [

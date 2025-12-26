@@ -6,7 +6,8 @@
     "out/",
     "_example/",
     "dist/",
-    "build/"
+    "build/",
+    "Ref-Code/"
   ],
   "showInlineTitle": false,
   "showLineNumber": true,
