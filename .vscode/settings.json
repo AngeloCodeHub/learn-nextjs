@@ -1,0 +1,34 @@
+{
+  "window.title": "${rootName}→${activeEditorShort}",
+  "files.exclude": {
+    ".next": true,
+    "node_modules": true,
+    "out": true,
+    "tools": true,
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "explorer.excludeGitIgnore": true,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    // Antigravity Extension
+    ".env": "dotenv",
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "chat.tools.edits.autoApprove": {
+    "**/*.env": false
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "Ref-Code": false
+  },
+  "git.allowForcePush": true,
+  "github.copilot.chat.localeOverride": "zh-TW",
+  "inlineChat.enableV2": true,
+  "chat.useAgentSkills": true,
+}

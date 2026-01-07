@@ -1,0 +1,1 @@
+D:/WorkSpace/Learn-ElectronJS/tools/Clean-EmptyDir.ts
