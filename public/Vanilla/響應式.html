@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>響應式設計</title>
+
+  <style>
+    * {
+      /* 確定padding和border已經包含在元素寬度和高度內 */
+      box-sizing: border-box;
+    }
+
+    .row::after {
+      /* 在整個row下面增加空格內容 */
+      content: "";
+      clear: left;
+      display: table;
+    }
+
+    [class*="col-"] {
+      /* 所有欄位的樣式設定    */
+      float: left;
+      padding: 15px;
+      width: 100%;
+    }
+
+    /* 預設是手機螢幕 */
+    @media only screen and (min-width: 481px) {
+
+      /* 以下是平板螢幕的@Media */
+      .col-s-25 {
+        width: 25%;
+      }
+
+      /* nav欄位使用            */
+      .col-s-75 {
+        width: 75%;
+      }
+
+      /* article欄位使用        */
+      .col-s-100 {
+        width: 100%;
+      }
+
+      /* aside欄位使用          */
+    }
+
+    @media only screen and (min-width: 769px) {
+
+      /* 以下是PC螢幕的@Media   */
+      .col-25 {
+        width: 25%;
+      }
+
+      /* nav和aside欄位使用     */
+      .col-50 {
+        width: 50%;
+      }
+
+      /* article欄位使用        */
+    }
+
+    html {
+      /* 設計HTML字型的CSS  */
+      font-family: Helvetica, sans-serif;
+    }
+
+    header {
+      /* 設計header標題區CSS */
+      background-color: aqua;
+      color: blue;
+      padding: 15px;
+    }
+
+    .menu ul {
+      /* 表格的ul樣式CSS */
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .menu li {
+      /* 表格的li樣式CSS */
+      background-color: deepskyblue;
+      color: white;
+      padding: 5px;
+      margin-bottom: 5px;
+      box-shadow: gray 1px 2px 2px;
+    }
+
+    .menu li:hover {
+      background-color: darkblue;
+      /* 滑鼠移至表格區選項背景色 */
+    }
+
+    aside {
+      /* aside區的CSS  */
+      background-color: deepskyblue;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 15px;
+      box-shadow: gray 3px 3px 3px;
+    }
+
+    footer {
+      /* 設計footer註腳區CSS  */
+      background-color: lightgray;
+      color: blue;
+      text-align: center;
+      font-size: 18px;
+      padding: 15px;
+    }
+
+    img {
+      max-width: 100%;
+      /* 圖片呈現最大寬度CSS */
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>深石數位DeepStone</h1>
+    <p>Deep Learning
+    <p>
+  </header>
+
+  <div class="row"> <!-- 中央欄位區塊起始端 -->
+    <nav class="col-25 col-s-25 menu"> <!-- 導覽區             -->
+      <ul> <!-- 建立表格資料       -->
+        <li>SSE Certificate</li>
+        <li>JobExam</li>
+        <li>電腦類書籍出版</li>
+        <li>生活類書籍出版</li>
+      </ul>
+    </nav>
+    <article class="col-50 col-s-75"> <!-- 文章區             -->
+      <h1>深度學習滴水穿石</h1> <!-- 建立第2欄位內容    -->
+      <p>致力於最先進的教育，綜合了書籍、教材、教具、專業認證、軟體
+        、雲端等技術透過最新深度學習方法，達到人人學有所用的目標。</p>
+      <img src="https://www.xn--djroe106hl2fyz1bszc.online/wp-content/uploads/2025/11/mybook.jpg" width="300"> <!-- 插入圖片           -->
+    </article>
+    <div class="col-25 col-s-100">
+      <aside> <!-- 側邊攔             -->
+        <h2>SSE</h2> <!-- 建立第3欄位內容    -->
+        <p>Silicon Stone Education國際證照領導品牌</p>
+        <h2>JobExam</h2>
+        <p>勞動部、金融研訓院專業證照</p>
+        <h2>資訊圖書</h2>
+        <p>大數據、物聯網、雲端技術、3D動畫設計</p>
+      </aside>
+    </div>
+  </div> <!-- 中央欄位區塊末端 -->
+  <footer>
+    <p>台北市中山區南京東路二段98號8F之1</p>
+  </footer>
+</body>
+
+</html>
