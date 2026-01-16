@@ -10,7 +10,9 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "explorer.excludeGitIgnore": true,
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.css": "tailwindcss",
+    // Antigravity Extension
+    ".env": "dotenv",
   },
   "editor.quickSuggestions": {
     "strings": "on"
@@ -27,6 +29,6 @@
   },
   "git.allowForcePush": true,
   "github.copilot.chat.localeOverride": "zh-TW",
-  "chat.agentSessionsViewLocation": "view",
   "inlineChat.enableV2": true,
+  "chat.useAgentSkills": true,
 }
