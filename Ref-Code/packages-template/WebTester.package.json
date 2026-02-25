@@ -1,0 +1,21 @@
+{
+  "name": "workspaceinit",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "noteStartsync": "node ./src/noteStartsync.js",
+    "noteStopsync": "node ./src/noteStopsync.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/bun": "latest",
+    "playwright": "^1.57.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "puppeteer-core": "^24.33.0"
+  }
+}
