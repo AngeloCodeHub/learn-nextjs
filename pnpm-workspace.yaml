@@ -1,3 +1,8 @@
+allowBuilds:
+  bcrypt: true
+  msw: true
+  sharp: true
+  unrs-resolver: true
 onlyBuiltDependencies:
   - bcrypt
   - msw
